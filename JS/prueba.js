@@ -1,9 +1,11 @@
 let consecutivos = 0;
 let resultado = 0;
+let ultimoResultado = 0;
 
 function ver() {
     const fila = parseFloat(document.getElementById("fila").value);
     const columna = parseFloat(document.getElementById("columna").value);
+    const mensaje = document.getElementById("mensaje");
     const suma = fila + columna;
     const resultado = suma % 2 === 0 ? "0" : "X";
 
@@ -22,7 +24,8 @@ function ver() {
     ultimoResultado = resultado;
 
     if (consecutivos === 3) {
-        document.getElementById('mensaje').innerHTML='<label>Ganaste</label>'
+        console.log("Felicitaciones!");
+        mensaje.innerHTML = '<label>Felicitaciones!</label>';
     } else {
         mensaje.innerHTML = "";
     }

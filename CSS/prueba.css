@@ -47,3 +47,9 @@ p:before {
 .largo {
     width: 150px;
 }
+
+.mensaje {
+    align-items: center;
+    align-content: center;
+    background: #c7d3da;
+}
