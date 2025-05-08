@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prueba {
+    align-items: center;
+    align-content: center;
+    background: #2781b6;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px;
+    background: greenyellow;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    background: #c7d3da;
+    color: #050505;
+    padding: 10px 5px;
+    border-radius: 5px black;
+    border: 1px solid black;
+}
+
+.resultados {
+    align-items: center;
+    align-content: center;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    justify-content: center;
+}
+
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.largo {
+    width: 150px;
+}
